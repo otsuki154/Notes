@@ -1,0 +1,8 @@
+Thứ tự ưu tiên của 4 dạng rule như sau:
+
+Các dạng rule	Thứ tự ưu tiên	Phạm vi tác động
+inline	1	4
+id	2	3
+class	3	2
+tag	4	1
+Nhận xét: Thứ tự ưu tiên tỉ lệ nghịch với phạm vi tác động. Dạng rule có phạm vi tác động càng cao thì ưu tiên càng thấp, ngược lại dạng rule có phạm vi tác động càng thấp thì ưu tiên càng cao.
